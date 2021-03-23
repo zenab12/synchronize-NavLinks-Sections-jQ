@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>synchronize-NavLinks-Sections-jQ.</title>
+    <style>
+        body {
+            margin: 0
+        }
+        
+        nav {
+            background-color: rgb(81, 5, 81);
+            color: #fff;
+            margin: 0;
+            position: fixed;
+            width: 100%
+        }
+        
+        nav ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            height: 100%;
+            margin: 0px;
+        }
+        
+        nav ul li {
+            padding: 11px;
+            height: 100%;
+        }
+        
+        nav ul li a {
+            width: 100%;
+            text-decoration: none;
+            color: white;
+            height: 100%;
+            padding: 11px;
+            margin: 0
+        }
+        
+        nav ul li a.active {
+            font-weight: bold;
+            background: white;
+            color: rgb(81, 5, 81);
+        }
+        
+        section {
+            background: linear-gradient(to left, white, rgb(81, 5, 81));
+            height: 700px;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+            align-items: center
+        }
+        
+        section h2 {
+            text-align: center;
+            padding: 20px;
+            color: white;
+            width: 200px;
+            border-bottom: 10px solid white;
+        }
+        
+        section div {
+            width: 600px;
+            height: 200px;
+            background-color: #fff;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        section div span {
+            display: block;
+            background-color: rgb(81, 5, 81);
+            width: 50px;
+            height: 50px;
+            margin: 5px
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#section1" data-scroll="section1" class="active">section1</a></li>
+            <li><a href="#section2" data-scroll="section2">section2</a></li>
+            <li><a href="#section3" data-scroll="section3">section3</a></li>
+            <li><a href="#section4" data-scroll="section4">section4</a></li>
+        </ul>
+    </nav>
+
+    <section id="section1">
+
+        <h2>Section one</h2>
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+        <div>
+
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+
+
+    <section id="section2">
+        <h2>Section two</h2>
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+        <div>
+
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+    <section id="section3">
+        <h2>Section three</h2>
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+        <div>
+
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+    <section id="section4">
+        <h2>Section four</h2>
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+        <div>
+
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="synchronize-NavLinks-Sections-jQ.js"></script>
+</body>
+
+</html>
